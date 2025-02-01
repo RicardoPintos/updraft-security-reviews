@@ -1,2 +1,8 @@
+# PasswordStore Audit Report
 
-THIS SECURITY REPORT WAS MADE IN THE CYFRIN UPDRAFT COURSE
+This security review was conducted as part of Cyfrin Updraft's Smart Contract Security course. 
+
+Content:
+- report.pdf
+
+![LokapalBanner](https://github.com/user-attachments/assets/5358f442-06f3-4bf4-b22f-fbefb2743762)
