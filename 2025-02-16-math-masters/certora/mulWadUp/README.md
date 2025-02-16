@@ -8,7 +8,6 @@ Since `MathMasters.sol` is a library with internal functions, we use `Harness.so
 
 ## Files
 
-- **`Harness.sol`** – Wrapper contract exposing internal functions of `MathMasters.sol` as `external` for Certora verification.
 - **`MulWadUp.spec`** – Specification file defining formal verification properties for `mulWadUp`.
 - **`MulWadUp.conf`** – Configuration file specifying the verification setup for Certora.
 
@@ -16,7 +15,7 @@ Since `MathMasters.sol` is a library with internal functions, we use `Harness.so
 
 To execute the Certora Prover locally, run:
 ```sh
-certoraRun ./certora/MulWadUp.conf
+certoraRun ./certora/mulWadUp/MulWadUp.conf
 ```
 
 For detailed results, refer to the [Certora Job Report](https://prover.certora.com/output/3325068/7e410377b5334388aded05266976410e?anonymousKey=e3f06fd53553bbc521ccebff32e252b5319153aa).
