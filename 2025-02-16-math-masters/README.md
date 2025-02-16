@@ -7,12 +7,12 @@ Content:
 - report.md
 - [**report.pdf**](https://github.com/RicardoPintos/updraft-security-reviews/blob/main/2025-02-16-math-masters/report.pdf)
 - certora
-  - mulWadUp
+  - harness
     - Harness.sol
+  - mulWadUp
     - MulWadUp.conf
     - MulWadUp.spec 
   - sqrt
-    - Harness.sol
     - Sqrt.conf
     - Sqrt.spec
 
