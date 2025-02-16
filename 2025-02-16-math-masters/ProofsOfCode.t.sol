@@ -3,7 +3,7 @@ pragma solidity ^0.8.3;
 
 import {Base_Test, console2} from "../test/Base_Test.t.sol";
 import {MathMasters} from "../src/MathMasters.sol";
-import {Harness} from "../certora/Sqrt/Harness.sol";
+import {Harness} from "../certora/harness/Harness.sol";
 
 contract MathMastersTest is Base_Test {
     function testMulWadUpUnitFromHalmos() public pure {
