@@ -3,6 +3,7 @@
 This security review was conducted as part of Cyfrin Updraft's Formal Verification course. 
 
 Content:
+- ProofsOfCode.t.sol
 - report.md
 - report.pdf
 - certora
