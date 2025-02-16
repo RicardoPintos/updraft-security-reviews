@@ -8,7 +8,6 @@ Since `MathMasters.sol` is a library with internal functions, we use `Harness.so
 
 ## Files
 
-- **`Harness.sol`** – Wrapper contract exposing internal functions of `MathMasters.sol` as `external` for Certora verification.
 - **`Sqrt.spec`** – Specification file defining formal verification properties for `sqrt`.
 - **`Sqrt.conf`** – Configuration file specifying the verification setup for Certora.
 
@@ -16,7 +15,7 @@ Since `MathMasters.sol` is a library with internal functions, we use `Harness.so
 
 To execute the Certora Prover locally, run:
 ```sh
-certoraRun ./certora/Sqrt.conf
+certoraRun ./certora/sqrt/Sqrt.conf
 ```
 
 For detailed results, refer to the [Certora Job Report](https://prover.certora.com/output/3325068/79fa9c55a772461daa358c57d90db1d4?anonymousKey=bb1a2a6f0424d7d238e8d066852fd3824fe5b872).
