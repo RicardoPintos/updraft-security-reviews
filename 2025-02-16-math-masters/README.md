@@ -5,7 +5,7 @@ This security review was conducted as part of Cyfrin Updraft's Formal Verificati
 Content:
 - ProofsOfCode.t.sol
 - report.md
-- report.pdf
+- **report.pdf**
 - certora
   - mulWadUp
     - Harness.sol
