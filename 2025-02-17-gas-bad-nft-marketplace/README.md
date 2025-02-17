@@ -6,8 +6,7 @@ Content:
 - report.md
 - [**report.pdf**](https://github.com/RicardoPintos/updraft-security-reviews/blob/main/2025-02-17-gas-bad-nft-marketplace/report.pdf)
 - certora
-  - gasBadNft
-    - GasBadNft.conf
-    - GasBadNft.spec 
+  - GasBadNft.conf
+  - GasBadNft.spec 
 
 ![LokapalBanner](https://github.com/user-attachments/assets/5509e1f8-9f31-4141-8975-02132a1ba63e)
